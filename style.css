@@ -1,0 +1,23 @@
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.bg-draft { background: #f1f5f9; color: #64748b; }
+.bg-terkirim { background: #e0f2fe; color: #0369a1; }
+.bg-interview { background: #fef3c7; color: #b45309; }
+.bg-offering { background: #f3e8ff; color: #7e22ce; }
+.bg-diterima { background: #dcfce7; color: #15803d; }
+.bg-ditolak { background: #fee2e2; color: #b91c1c; }
+
+/* Transisi Hover Row */
+tbody tr {
+    transition: all 0.2s;
+}
+tbody tr:hover {
+    background-color: #f8fafc;
+}
